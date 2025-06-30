@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon.lang {
+  margin: 5px;
+}
+
+.icon:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.icon:active {
+  padding: 1px;
+}
+
+table, thead, tr, td {
+  border: 1px solid black;
+}
+
+.typing-text-box {
+  /* font-size: xx-large; */
+  text-align: left;
+  max-width: 700px;
+  word-break: break-all;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: initial;
+  margin: 0 auto;
+}
+
+.typing-cursor {
+  field-sizing: content;
+  max-width: 100px;
+  padding: 0%;
+  background-color: white;
+  color: rgb(204, 48, 48);
+  border: 0cm;
+}
+
+.typing-cursor:focus {
+  outline: none;
+}
+
+.base-text {
+  color: grey;
+}
+
+.wrong-text {
+  color: red;
+  background-color: rgb(245, 158, 158);
+}
